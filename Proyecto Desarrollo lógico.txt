@@ -1,43 +1,45 @@
-Proyecto Desarrollo lógico
+Proyecto Desarrollo lÃ³gico
 Alejandro Torres
 Angel Gallardo
+
 1-
 Algoritmo_Manhatthan
-{ //definir variable
+{ //definir variables
 entero a;
 real cf,i;
 i=0.06;
 Para (a=1; a<=349; a++) {
 cf=24*((1+i)**a);
-Imprimir ("el valor de la inversión es de $: ", cf);
+Imprimir ("el valor de la inversiÃ³n es de $: ", cf);
 }//finpara
 }//fin algoritmo
+
 2-
 Algoritmo_LeerNumeros
-	{//declarar variable
+	{ //declarar variables
   Entero x; 
 	Real n, num_mayor, num_menor;
 	num_mayor=0
 	num_menor=0
-	para (x = 1; x<=10; x++) 
+	para (x=1; x<=10; x++) 
 		{ escribir ("ingresa un numero");
 		leer (n);
 		si x == 1 entonces 
-			num_mayor = n 
-			num_menor = n 
+			num_mayor=n 
+			num_menor=n 
 		//FinSi
 		si n > num_mayor entonces
-			num_mayor = n
+			num_mayor=n
 		sino
 		si n < num_menor Entonces
-		num_menor = n
+		num_menor=n
 	//FinSi
 	
 		//FinSi
-	} FinPara
+	} //FinPara
 	{ escribir ("el numero mayor es: ",num_mayor); }
 {	escribir ("el numero menor es: ",num_menor); }
-FinAlgoritmo
+}//FinAlgoritmo
 
 3- 
 Algoritmo_Febonacci
@@ -52,8 +54,8 @@ z=x+a;
 imprimir z;
 a=x;
 x=z;
-}//FinPara
-}//FinAlgoritmo
+} //FinPara
+} //FinAlgoritmo
 
 
 4-
